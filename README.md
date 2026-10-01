@@ -14,6 +14,7 @@ One folder per project, then one folder per kind of picture:
 | Folder | What | Written by |
 | --- | --- | --- |
 | `money/merchants/` | Merchant logos from the money app (money.sanglam.cc) | the money-hub helper, automatically |
+| `money/app/` | The money app's own icon, for alerts with no merchant logo | by hand |
 
 A new project gets its own top-level folder (`wheeltradr/`, `owly/`, ...) with a short
 `README.md` saying what is in it and whether a program writes it. Don't hand-edit a folder a

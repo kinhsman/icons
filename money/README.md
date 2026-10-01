@@ -7,4 +7,8 @@ Pictures for the money app (money.sanglam.cc, repo kinhsman/money-hub).
   when a merchant is added or its logo changes, and removes the ones no merchant uses any more.
   Friends' photos are never published here, only brands.
 
-Written by a program: changes made by hand are undone by the next publish.
+- `app/icon.png`: the money app's own icon (the one on the home screen, Wealthfolio's), 256 by 256.
+  Alerts with no merchant logo show it instead (server/drive-backup/lib/alerts.js). Placed by hand;
+  link it pinned to a commit.
+
+`merchants/` is written by a program: changes made by hand there are undone by the next publish.
